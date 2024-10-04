@@ -24,7 +24,7 @@ class ImageGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     int crossAxisCount = _calculateCrossAxisCount(context);
 
-    return /// `MasonryGridView` is a widget provided by the `flutter_staggered_grid_view` package in
+    /// `MasonryGridView` is a widget provided by the `flutter_staggered_grid_view` package in
     /// Flutter. It is used to create a staggered grid view where the items can have different
     /// heights, allowing for a more dynamic and visually appealing layout compared to a
     /// traditional grid view. The `count` constructor of `MasonryGridView` allows you to specify
